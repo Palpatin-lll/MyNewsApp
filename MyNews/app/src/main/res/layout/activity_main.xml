@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B547B53F"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_habr"
+        android:layout_width="140dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="184dp"
+        android:backgroundTint="#0F5A61"
+        android:text="Habr"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="#041513" />
+
+    <Button
+        android:id="@+id/btn_IZ"
+        android:layout_width="140dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="51dp"
+        android:backgroundTint="#830CAE"
+        android:text="Известие"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_habr"
+        app:rippleColor="#320649" />
+
+    <Button
+        android:id="@+id/btn_dzen"
+        android:layout_width="140dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="62dp"
+        android:backgroundTint="#988903"
+        android:text="Дзен"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_IZ"
+        app:rippleColor="#3C3707" />
+</androidx.constraintlayout.widget.ConstraintLayout>
